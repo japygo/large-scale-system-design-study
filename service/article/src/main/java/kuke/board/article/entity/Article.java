@@ -1,4 +1,4 @@
-package kuke.board.articleread.entity;
+package kuke.board.article.entity;
 
 import java.time.LocalDateTime;
 

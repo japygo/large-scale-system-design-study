@@ -1,13 +1,13 @@
-package kuke.board.articleread.service;
+package kuke.board.article.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import kuke.board.articleread.entity.Article;
-import kuke.board.articleread.repository.ArticleRepository;
-import kuke.board.articleread.service.request.ArticleCreateRequest;
-import kuke.board.articleread.service.request.ArticleUpdateRequest;
-import kuke.board.articleread.service.response.ArticleResponse;
+import kuke.board.article.entity.Article;
+import kuke.board.article.repository.ArticleRepository;
+import kuke.board.article.service.request.ArticleCreateRequest;
+import kuke.board.article.service.request.ArticleUpdateRequest;
+import kuke.board.article.service.response.ArticleResponse;
 import kuke.board.common.snowflake.Snowflake;
 import lombok.RequiredArgsConstructor;
 

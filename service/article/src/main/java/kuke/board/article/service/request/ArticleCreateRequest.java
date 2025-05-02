@@ -1,4 +1,4 @@
-package kuke.board.articleread.service.request;
+package kuke.board.article.service.request;
 
 import lombok.Getter;
 import lombok.ToString;

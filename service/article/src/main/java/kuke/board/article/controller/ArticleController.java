@@ -1,4 +1,4 @@
-package kuke.board.articleread.controller;
+package kuke.board.article.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import kuke.board.articleread.service.ArticleService;
-import kuke.board.articleread.service.request.ArticleCreateRequest;
-import kuke.board.articleread.service.request.ArticleUpdateRequest;
-import kuke.board.articleread.service.response.ArticleResponse;
+import kuke.board.article.service.ArticleService;
+import kuke.board.article.service.request.ArticleCreateRequest;
+import kuke.board.article.service.request.ArticleUpdateRequest;
+import kuke.board.article.service.response.ArticleResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController

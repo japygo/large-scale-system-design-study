@@ -1,8 +1,8 @@
-package kuke.board.articleread.service.response;
+package kuke.board.article.service.response;
 
 import java.time.LocalDateTime;
 
-import kuke.board.articleread.entity.Article;
+import kuke.board.article.entity.Article;
 import lombok.Getter;
 import lombok.ToString;
 

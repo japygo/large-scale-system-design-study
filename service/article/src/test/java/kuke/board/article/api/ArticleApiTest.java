@@ -3,7 +3,7 @@ package kuke.board.article.api;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.client.RestClient;
 
-import kuke.board.articleread.service.response.ArticleResponse;
+import kuke.board.article.service.response.ArticleResponse;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
