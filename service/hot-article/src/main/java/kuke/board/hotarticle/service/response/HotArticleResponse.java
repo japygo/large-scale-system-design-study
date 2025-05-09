@@ -4,8 +4,10 @@ import java.time.LocalDateTime;
 
 import kuke.board.hotarticle.client.ArticleClient;
 import lombok.Getter;
+import lombok.ToString;
 
 @Getter
+@ToString
 public class HotArticleResponse {
     private Long articleId;
     private String title;
