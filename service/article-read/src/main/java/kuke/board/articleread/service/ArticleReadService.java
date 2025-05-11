@@ -123,7 +123,7 @@ public class ArticleReadService {
     }
 
     private List<Long> readAllInfiniteScrollArticleIds(Long boardId, Long lastArticleId, Long pageSize) {
-        List<Long> articleIds = articleIdListRepository.readAll(boardId, lastArticleId, pageSize);
+        List<Long> articleIds = articleIdListRepository.readAllInfiniteScroll(boardId, lastArticleId, pageSize);
         if (pageSize == articleIds.size()) {
             log.info("[ArticleReadService.readAllInfiniteScrollArticleIds] return redis data.");
             return articleIds;
