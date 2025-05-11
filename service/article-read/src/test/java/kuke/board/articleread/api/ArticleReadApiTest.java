@@ -1,4 +1,4 @@
-package kuke.board.articleread.client.api;
+package kuke.board.articleread.api;
 
 import java.util.List;
 

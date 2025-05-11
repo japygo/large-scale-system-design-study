@@ -1,4 +1,4 @@
-package kuke.board.articleread.client.data;
+package kuke.board.articleread.data;
 
 import java.util.random.RandomGenerator;
 

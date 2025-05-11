@@ -1,4 +1,4 @@
-package kuke.board.articleread.client.learning;
+package kuke.board.articleread.learning;
 
 import java.math.BigDecimal;
 
