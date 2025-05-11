@@ -9,6 +9,8 @@ import lombok.ToString;
 @Getter
 @ToString
 public class ArticleResponse {
+    // javascript에서도 Long 데이터 유실 가능
+    // String으로 변환 후 응답
     private Long articleId;
     private String title;
     private String content;
